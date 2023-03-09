@@ -3,7 +3,7 @@ Recursion is a programming technique where a function calls itself, either direc
 
 Recursion is used in a variety of programming applications, such as searching and sorting algorithms, tree traversal, and mathematical computations. However, it is important to be careful when using recursion, as it can lead to stack overflow errors if not implemented correctly. Additionally, recursive algorithms can sometimes be less efficient than their iterative counterparts.
 
-# What is the Call Stack?
+## What is the Call Stack?
 The call stack is a data structure used by a computer program to keep track of the sequence of function calls made during the execution of the program.\
 
 When a function is called, the program pushes a stack frame onto the call stack, which contains information about the function's arguments, local variables, and the location in the program where the function was called from. The program then jumps to the beginning of the called function, executes its code, and when the function returns, the program pops the stack frame off the call stack and returns to the location in the program where the function was called from.\
