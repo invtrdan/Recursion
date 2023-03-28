@@ -27,3 +27,14 @@ When a recursive function is called, it creates a new instance of itself on the 
 2. You must have base cases.
 3. When you make a recursive call, it should be to a simpler instance of the same problem and make forward progress towards the base case.
 
+## Complexity Analysis
+### Methods
+There are 3 ways of calculating the complexity of a recursive algorithm:
+1. Recursive Tree Drawing
+* Draw a recursive tree and calculate the time taken by each level of the tree.
+* Sum the work done at all levels
+2. Recurrence Relation Unfolling
+* Substitute values into therecurrence relation.
+* Deduce a general formula for the time complexity
+3. Master Theorem
+
