@@ -10,13 +10,13 @@ When a function is called, the program pushes a stack frame onto the call stack,
 
 The call stack is important because it allows the program to keep track of where it is in the execution of the program and to maintain the state of each function as it is called and returned from. It also helps to prevent stack overflow errors, which occur when the call stack becomes too large and overflows the available memory.
 
-## Recursive Methods
-A recursive function typically has two parts: a base case and a recursive case. 
+## Recursive Methods/Functions
+A recursive function is a function which calls itself. It typically has two parts: a base case and a recursive case. 
 
 ### Base Case
-The base case is the stopping condition for the recursion, where the function does not call itself and returns a result. 
+The base case is the stopping condition for the recursion, where the function does not call itself and returns a result. In other words, this is where the input is directly solveable and there is no further recursive call.
 
-### Recursive Case
+### Recursive Case/Call
 The recursive case is where the function calls itself, passing a modified version of the problem to solve.
 
 ### What happens when a recursive method is called?
