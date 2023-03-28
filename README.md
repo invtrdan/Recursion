@@ -22,3 +22,8 @@ The recursive case is where the function calls itself, passing a modified versio
 ### What happens when a recursive method is called?
 When a recursive function is called, it creates a new instance of itself on the call stack. Each instance of the function has its own set of variables and parameters. As the recursion proceeds, the call stack grows deeper, with each recursive call adding a new frame to the stack.
 
+## Rules of Recursion
+1. Your code must have a case for ALL valid inputs.
+2. You must have base cases.
+3. When you make a recursive call, it should be to a simpler instance of the same problem and make forward progress towards the base case.
+
